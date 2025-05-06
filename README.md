@@ -8,7 +8,7 @@ Task 2;
 1.
 -Joel Menu & Options Menu - The Game must have a Main Menu that has the options; new game, load game, save game & Exit. The Options menu will enable adjust sound settings, graphics & gameplay setttings.
 -Joel Dialog System - Players can read text based responsives and that make choices that effect the conversation. Dialouge responsives will change the actions and responsives of the conversation.
--Joel Respawn
+-Joel Respawn - Player will need to be reset their X, Y position on the player world.
 
 2.
 -Mathew Player Movement - The player can move freely within the world using WASD input from the keyboard controls input. The player must be able to control speed, crouch & sprint.
