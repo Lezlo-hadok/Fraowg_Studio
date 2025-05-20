@@ -35,3 +35,9 @@ Task 2;
 - Saving & Loading Options
   - The game will allow player to save their menu preferences such as sound, graphics & key binds.
   - 
+- Interaction
+  - The player can interact with simple NPC's, Objects & Environments through simple prompts (such as Q). Interactions will include things like opening doors, starting dialouge & picking up items.
+  - 
+- Saving & Loading Stats
+  - Players stats will be saved during the game save menu options. Stats are stored within a file for easy management and retriveal when loading the game. Any changes to the players stats (such as levels) will need to be updated automatically.
+  - 
