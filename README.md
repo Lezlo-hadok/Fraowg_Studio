@@ -35,7 +35,7 @@ Task 2;
 - Saving & Loading Options
   - The game will allow player to save their menu preferences such as sound, graphics & key binds.
   - 
- Menu & Options Menu
+- Menu & Options Menu
   - The Game must have a Main Menu that has the options; new game, load game, save game & Exit. The Options menu will enable adjust sound settings, graphics & gameplay setttings.
   - Menu_OptionsMenu
 - Respawn
