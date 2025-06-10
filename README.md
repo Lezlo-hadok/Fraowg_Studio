@@ -10,15 +10,16 @@ Task 2;
  ## Team members and roles:
  ---
 # 1. Eli 
-- Dialog System
-  - Players can read text based responsives and that make choices that effect the conversation. Dialouge responsives will change the actions and responsives of the conversation.
+- Dialogue System
+  - Players can read text based responses and that make choices that effect the conversation. Dialogue responses will change the actions and responses of the conversation.
   - 
 -
 - Interaction
-  - The player can interact with simple NPC's, Objects & Environments through simple prompts (such as Q). Interactions will include things like opening doors, starting dialouge & picking up items.
+  - The player can interact with simple NPC's, Objects & Environments through simple prompts (such as Q). Interactions will include things like opening doors, starting dialogue & picking up items.
   - 
 - Camera Controls
-  - Camera will follow the player the dynamic perspective of the game world. The camera's position & roation will adjust smoothly as the player moves winthin their world (3rd person camnera)
+  - Camera will follow the player showing dynamic perspective of the game world. The camera's position & roation will adjust smoothly as the player moves winthin their world (3rd person camnera)
+  - player can zoom in and out (between 3rd and 1st person)
   - 
 # 2. Matthew
 - Player Movement
@@ -36,10 +37,10 @@ Task 2;
   - The game will allow player to save their menu preferences such as sound, graphics & key binds.
   - 
 - Menu & Options Menu
-  - The Game must have a Main Menu that has the options; new game, load game, save game & Exit. The Options menu will enable adjust sound settings, graphics & gameplay setttings.
+  - The Game must have a Main Menu that has the options; new game, load game, save game & Exit. The Options menu will enable you to adjust sound settings, graphics & gameplay setttings.
   - Menu_OptionsMenu
 - Respawn
-  - Player will need to be reset their X, Y position on the player world.
+  - Player will need to have there X, Y positions reset on the player world.
   -
 # 4. Xavier
 - charater movement
@@ -47,6 +48,7 @@ Task 2;
   - 
 - camera controler
   - Camera will follow the player the dynamic perspective of the game world. The camera's position & roation will adjust smoothly as the player moves winthin their world (3rd person camnera)
+  - player can zoom in and out (between 3rd and 1st person)
   - 
 - interactions
   - The player can interact with simple NPC's, Objects & Environments through simple prompts (such as Q). Interactions will include things like opening doors, starting dialouge & picking up items.
