@@ -23,9 +23,8 @@ public class SaveAndLoadOptions : MonoBehaviour
 
     [Header("Options Scripts")] // Groups these fields in the Inspector for clarity
 
-    [SerializeField] AudioChangerManager _audioManager;                       // Manages volume levels
+    [SerializeField] AudioChangerManager _audioManager;               // Manages volume levels
     [SerializeField] FullscreenModeManager _fullscreenModeManager;    // Handles fullscreen mode settings
-    //[SerializeField] MouseInvertManager _isMouseInverted;        // Manages cursor icon selection
     [SerializeField] KeybindManager _keybindManager;                  // Handles keybind saving/loading
 
     #endregion
