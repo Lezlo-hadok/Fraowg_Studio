@@ -27,6 +27,31 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //IF _characterController isGrounded THEN
+        if (_characterController.isGrounded)
+        {
+            // IF INPUT LeftShift is Pressed THEN
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                // SET _movementSpeed to _SprintSpeed
+                _movementSpeed = _sprintSpeed;
+            }
+            // ELSE IF INPUT LeftControl is pressed THEN
+            else if (Input.GetKey(KeyCode.LeftControl))
+            {
+                // SET _movementSpeed to _crouchSpeed
+                _movementSpeed = _crouchSpeed;
+            }
+            // ELSE
+            else
+            {
+                // SET _movementSpeed to _walkSpeed
+                _movementSpeed = _walkSpeed;
+            }
+
+            //ENDIF
+
+        }
     }
-    
+
 }
