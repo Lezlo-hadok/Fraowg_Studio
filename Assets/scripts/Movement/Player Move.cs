@@ -51,7 +51,27 @@ public class PlayerMove : MonoBehaviour
 
             //ENDIF
 
-        }
-    }
+            // SET _movementDirection to both horizontal vertical INPUT
+            _movementDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            // SET _movementDirection MULTIPLIED by _movementSpeed
+            _movementDirection *= _movementSpeed;
+            // SET _movementDirection TransformDirection
+            _movementDirection = transform.TransformDirection(_movementDirection);
 
+            // IF INPUT space is pressed THEN
+            if (Input.GetButton("Jump"))
+            {
+                // SET _movement.y to _jumpspeed
+                _movementDirection.y = _jumpSpeed;
+            }
+            // ENDIF
+        }
+        //ENDIF
+
+        // SET _movementDirection.y by _gravity
+        _movementDirection.y -= _gravity * Time.deltaTime;
+        // SET _characterController.Move by _movementDirection
+        _characterController.Move(_movementDirection * Time.deltaTime);
+
+    }
 }
