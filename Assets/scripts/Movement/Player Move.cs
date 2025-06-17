@@ -21,57 +21,63 @@ public class PlayerMove : MonoBehaviour
     {
         //references the character controller 
         _characterController = this.GetComponent<CharacterController>();
-
+        
     }
 
     // Update is called once per frame
     void Update()
-    {
-        //IF _characterController isGrounded THEN
-        if (_characterController.isGrounded)
-        {
-            // IF INPUT LeftShift is Pressed THEN
-            if (Input.GetKey(KeyCode.LeftShift))
+    {   
+        
+            //IF _characterController isGrounded THEN
+            if (_characterController.isGrounded)
             {
-                // SET _movementSpeed to _SprintSpeed
-                _movementSpeed = _sprintSpeed;
-            }
-            // ELSE IF INPUT LeftControl is pressed THEN
-            else if (Input.GetKey(KeyCode.LeftControl))
-            {
-                // SET _movementSpeed to _crouchSpeed
-                _movementSpeed = _crouchSpeed;
-            }
-            // ELSE
-            else
-            {
-                // SET _movementSpeed to _walkSpeed
-                _movementSpeed = _walkSpeed;
-            }
+                // IF INPUT LeftShift is Pressed THEN
+                if (Input.GetKey(KeyCode.LeftShift))
+                {
+                    // SET _movementSpeed to _SprintSpeed
+                    _movementSpeed = _sprintSpeed;
+                }
+                // ELSE IF INPUT LeftControl is pressed THEN
+                else if (Input.GetKey(KeyCode.LeftControl))
+                {
+                    // SET _movementSpeed to _crouchSpeed
+                    _movementSpeed = _crouchSpeed;
+                }
+                // ELSE
+                else
+                {
+                    // SET _movementSpeed to _walkSpeed
+                    _movementSpeed = _walkSpeed;
+                }
 
+                //ENDIF
+
+                // SET _movementDirection to both horizontal vertical INPUT
+                _movementDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+                // SET _movementDirection MULTIPLIED by _movementSpeed
+                _movementDirection *= _movementSpeed;
+                // SET _movementDirection TransformDirection
+                _movementDirection = transform.TransformDirection(_movementDirection);
+
+                // IF INPUT space is pressed THEN
+                if (Input.GetButton("Jump"))
+                {
+                    // SET _movement.y to _jumpspeed
+                    _movementDirection.y = _jumpSpeed;
+                }
+                // ENDIF
+            }
             //ENDIF
 
-            // SET _movementDirection to both horizontal vertical INPUT
-            _movementDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-            // SET _movementDirection MULTIPLIED by _movementSpeed
-            _movementDirection *= _movementSpeed;
-            // SET _movementDirection TransformDirection
-            _movementDirection = transform.TransformDirection(_movementDirection);
+            // SET _movementDirection.y by _gravity
+            _movementDirection.y -= _gravity * Time.deltaTime;
+            // SET _characterController.Move by _movementDirection
+            _characterController.Move(_movementDirection * Time.deltaTime);
 
-            // IF INPUT space is pressed THEN
-            if (Input.GetButton("Jump"))
-            {
-                // SET _movement.y to _jumpspeed
-                _movementDirection.y = _jumpSpeed;
-            }
-            // ENDIF
-        }
-        //ENDIF
 
-        // SET _movementDirection.y by _gravity
-        _movementDirection.y -= _gravity * Time.deltaTime;
-        // SET _characterController.Move by _movementDirection
-        _characterController.Move(_movementDirection * Time.deltaTime);
 
+        
     }
+        
+
 }

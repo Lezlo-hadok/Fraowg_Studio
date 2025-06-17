@@ -31,7 +31,7 @@ public class MouseLook : MonoBehaviour
         _tempRotation += Input.GetAxis("Mouse Y") * sensitivity;
         // CLAMP temporary rotation between min and max rotation limits 
         _tempRotation = Mathf.Clamp(_tempRotation, _verticalRotationClamp.x, _verticalRotationClamp.y);
-
+       
         // IF invert is enabled 
         if (invert)
         {
