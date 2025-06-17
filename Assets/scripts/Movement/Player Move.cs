@@ -22,6 +22,7 @@ public class PlayerMove : MonoBehaviour
         //references the character controller 
         _characterController = this.GetComponent<CharacterController>();
 
+
     }
 
     // Update is called once per frame
