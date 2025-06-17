@@ -17,13 +17,16 @@ public class Respawn : MonoBehaviour
         {
             RespawnPlayer();
         }
+        //if charater is dead by health or death bubble
         if (IsCharaterDead.isAlive == false)
         {
             RespawnPlayer();
             IsCharaterDead.isAlive = true;
         }
     }
-
+    /// <summary>
+    /// this checks to see if the player needs to be respawned
+    /// </summary>
     public void RespawnPlayer()
     {
         if (_characterController != null)
