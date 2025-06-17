@@ -32,10 +32,15 @@ public class Interact : MonoBehaviour
         }
         else
         {
+
+
+
+
             if (toolTip.text != "")
             {
                 toolTip.text = "";
             }
+
         }
     }
 }
