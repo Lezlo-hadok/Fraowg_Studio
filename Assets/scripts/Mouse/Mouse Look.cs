@@ -50,7 +50,6 @@ namespace Player
 
             // ENDIF
 
-
             // APPLY vertical rotation to the camera's local X - axis
             _camera.localEulerAngles = new Vector3(_verticalRotation, 0, 0);
         }
