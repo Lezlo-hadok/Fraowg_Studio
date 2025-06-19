@@ -19,10 +19,6 @@ namespace Player
         // Strength of gravity applied to the player to keep them grounded
         [SerializeField] float _gravity = 20;
 
-        void Start()
-        {
-            _characterController = this.GetComponent<CharacterController>();
-        }
 
         // Update is called once per frame
         void Update()
