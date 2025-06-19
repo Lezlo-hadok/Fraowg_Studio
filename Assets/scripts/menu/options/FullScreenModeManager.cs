@@ -10,7 +10,7 @@ public class FullscreenModeManager : MonoBehaviour
     #region Variables
 
     // Private variable to store the current fullscreen mode (0 = Exclusive Fullscreen, 1 = Fullscreen Windowed, 2 = Windowed)
-    private int _fullscreenMode = 0;
+    static int fullScreenMode = 0;
 
     // UI toggle references for each screen mode option
     [Header("Toggle References")] // Custom header for organizing UI references in the Inspector
@@ -29,9 +29,9 @@ public class FullscreenModeManager : MonoBehaviour
     public int CurrentFullscreenMode
     {
         // Set the current fullscreen mode value.
-        set { _fullscreenMode = value; }
+        set { fullScreenMode = value; }
         // Get the current fullscreen mode value.
-        get { return _fullscreenMode; }
+        get { return fullScreenMode; }
     }
 
     #endregion
