@@ -1,14 +1,36 @@
 # Flash_Studio
- AT03 Work
+## Team Members
+1. Eli
+2. Matthew 
+3. Ben 
+4. Xavier
+
+## Branching Naming Conventions
+
+### Feature Branch
+Format: - `feature/{feature-name}`<br>
+Example: - `feature/user-authentication`<br>
+### Bugfix Branches
+Format: - `bugfix/{bug-description}`<br>
+Example: - `bugfix/fix-login-error`<br>
+### Release Branches
+Format: - `release/{version-number}`<br>
+Example: - `release/v1.2.0`<br>
+
+## Commit names 
+Every github commit should start with one of the following words:
+- `modification`: when a new code is added or removed. Designate the file and the purpose of the modification. 
+- `fix`: when a specific bug is fixed. 
+- `file change`: if files are added or removed. 
+- `refactor`: improved code without changing its behaviour
+- `ui`: Add or modify UI Elements
  
 Task 2;
  key tasks
  - Function name
    - purpose
-   - branch naming convention Naming 
-
- ## Team members and roles:
- ---
+   - branch naming convention Naming
+   - 
 # 1. Eli 
 - Dialogue System
   - Players can read text based responses and that make choices that effect the conversation. Dialogue responses will change the actions and responses of the conversation.
