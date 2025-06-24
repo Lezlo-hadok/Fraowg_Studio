@@ -67,15 +67,15 @@ Every github commit should start with one of the following words:
 
 | Feature                    | Priority | Team Member   | Order | Order Reason                                                                                      |
 |----------------------------|----------|---------------|-------|---------------------------------------------------------------------------------------------------|
-| Main Menu and Options Menu | Urgent   | James Sargent | 1     | Develop UI for settings as keybinds will be needed for player                                     |
-| Saving and Loading Options | Urgent   | James Sargent | 2     | Save and Load Keybinds and Mouse Invert option for the Player and Camera                          |
-| Player Movement            | High     | James Sargent | 4     | Stats and Options will dictate functionality                                                      |
-| Camera Control             | High     | James Sargent | 5     | Options will dictate functionality                                                                |
-| Dialogue System            | Low      | James Sargent | 9     | To open the dialogue to test player and camera should allow movements, Interact is needed to open |
-| Interface and Interaction  | Low      | James Sargent | 8     | Needs Keybinds for interaction key, Needs camera for aiming                                       |
-| Stats and leveling         | Urgent   | James Sargent | 3     | Needed to be able to save stats, movement will pull stats for impact stamina                      |
-| Saving and Loading Stats   | High     | James Sargent | 6     | Saving and loading will require stats and the players movements to exist for saving and loading   |
-| Respawn                    | Low      | James Sargent | 7     | Respawn will require reloading stats and check point location from save file                      |
+| Main Menu and Options Menu | Urgent   | Ben           |   3   | Develop UI for settings as keybinds will be needed for player                                     |
+| Saving and Loading Options | Low      | Ben           |   8   | Save and Load Keybinds and Mouse Invert option for the Player and Camera                          |
+| Player Movement            | Urgent   | Xavier/Mathew |   1   | Stats and Options will dictate functionality                                                      |
+| Camera Control             | High     | Eli/Xavier    |   2   | Options will dictate functionality                                                                |
+| Dialogue System            | Low      | Eli           |   9   | To open the dialogue to test player and camera should allow movements, Interact is needed to open |
+| Interface and Interaction  | High     | Xavier/Eli    |   5   | Needs Keybinds for interaction key, Needs camera for aiming                                       |
+| Stats and leveling         | Low      | Matthew       |   6   | Needed to be able to save stats, movement will pull stats for impact stamina                      |
+| Saving and Loading Stats   | High     | Matthew       |   7   | Saving and loading will require stats and the players movements to exist for saving and loading   |
+| Respawn                    | High     | Ben           |   4   | Respawn will require reloading stats and check point location from save file                      |
 
 Task 2;
  key tasks
