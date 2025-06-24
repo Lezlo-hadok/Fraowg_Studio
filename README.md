@@ -63,6 +63,19 @@ Every github commit should start with one of the following words:
 - [ ]	The game will provide a visual or audio cue to indicate the respawn event, ensuring the player is aware of their return to the game.
 - [ ]	Player stats, including experience points and level, will remain intact upon respawn, maintaining the player’s progression despite death.
 
+## Work Allocation
+
+| Feature                    | Priority | Team Member   | Order | Order Reason                                                                                      |
+|----------------------------|----------|---------------|-------|---------------------------------------------------------------------------------------------------|
+| Main Menu and Options Menu | Urgent   | James Sargent | 1     | Develop UI for settings as keybinds will be needed for player                                     |
+| Saving and Loading Options | Urgent   | James Sargent | 2     | Save and Load Keybinds and Mouse Invert option for the Player and Camera                          |
+| Player Movement            | High     | James Sargent | 4     | Stats and Options will dictate functionality                                                      |
+| Camera Control             | High     | James Sargent | 5     | Options will dictate functionality                                                                |
+| Dialogue System            | Low      | James Sargent | 9     | To open the dialogue to test player and camera should allow movements, Interact is needed to open |
+| Interface and Interaction  | Low      | James Sargent | 8     | Needs Keybinds for interaction key, Needs camera for aiming                                       |
+| Stats and leveling         | Urgent   | James Sargent | 3     | Needed to be able to save stats, movement will pull stats for impact stamina                      |
+| Saving and Loading Stats   | High     | James Sargent | 6     | Saving and loading will require stats and the players movements to exist for saving and loading   |
+| Respawn                    | Low      | James Sargent | 7     | Respawn will require reloading stats and check point location from save file                      |
 
 Task 2;
  key tasks
