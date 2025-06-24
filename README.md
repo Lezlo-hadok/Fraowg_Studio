@@ -69,13 +69,13 @@ Every github commit should start with one of the following words:
 |----------------------------|----------|---------------|-------|---------------------------------------------------------------------------------------------------|
 | Main Menu and Options Menu | Urgent   | Ben           |   3   | Develop UI for settings as keybinds will be needed for player                                     |
 | Saving and Loading Options | Low      | Ben           |   8   | Save and Load Keybinds and Mouse Invert option for the Player and Camera                          |
-| Player Movement            | Urgent   | Xavier/Mathew |   1   | Stats and Options will dictate functionality                                                      |
-| Camera Control             | High     | Eli/Xavier    |   2   | Options will dictate functionality                                                                |
-| Dialogue System            | Low      | Eli           |   9   | To open the dialogue to test player and camera should allow movements, Interact is needed to open |
-| Interface and Interaction  | High     | Xavier/Eli    |   5   | Needs Keybinds for interaction key, Needs camera for aiming                                       |
-| Stats and leveling         | Low      | Matthew       |   6   | Needed to be able to save stats, movement will pull stats for impact stamina                      |
-| Saving and Loading Stats   | High     | Matthew       |   7   | Saving and loading will require stats and the players movements to exist for saving and loading   |
-| Respawn                    | High     | Ben           |   4   | Respawn will require reloading stats and check point location from save file                      |
+| Player Movement            | Urgent   | Xavier/Mathew |   1   | Movement in the basic need for the player, so it can be influenced by the options and stats       |
+| Camera Control             | High     | Eli/Xavier    |   2   | Camera is needed to finish player, options will influence it                                      |
+| Dialogue System            | Low      | Eli           |   9   | To be able to interact with things like npcs and objects needed the player character ready made   |
+| Interface and Interaction  | High     | Xavier/Eli    |   5   | Needed the movement completed to make the interaction ready                                       |
+| Stats and leveling         | Low      | Matthew       |   6   | For saving stats and player lever                                                                 |
+| Saving and Loading Stats   | High     | Matthew       |   7   | Saving and loading will require stats and the players pos                                         |
+| Respawn                    | High     | Ben           |   4   | Needed to be attached with the movement to be able to reset pos                                   |
 
 Task 2;
  key tasks
