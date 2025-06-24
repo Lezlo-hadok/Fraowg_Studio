@@ -24,7 +24,7 @@ Every github commit should start with one of the following words:
 - `file change`: if files are added or removed. 
 - `refactor`: improved code without changing its behaviour
 - `ui`: Add or modify UI Elements
-
+## Features
  ### Menu and Options Menu
 - [ ] The game will feature a main menu allowing players to start a new game, load a saved game, or exit.
 - [ ]	The options menu will enable players to adjust sound settings, graphic preferences, and gameplay settings.
