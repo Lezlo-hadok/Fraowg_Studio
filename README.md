@@ -1,9 +1,9 @@
 # Flash_Studio
 ## Team Members
-1. Eli
-2. Matthew 
-3. Ben 
-4. Xavier
+1. Eli as Designer
+2. Matthew as Coder
+3. Ben as Developer and Author
+4. Xavier as Reviewer and Coder 
 
 ## Branching Naming Conventions
 
