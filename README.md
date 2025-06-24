@@ -1,14 +1,88 @@
 # Flash_Studio
- AT03 Work
- 
+## Team Members
+1. Eli as Designer
+2. Matthew as Coder
+3. Ben as Developer and Author
+4. Xavier as Reviewer and Coder 
+
+## Branching Naming Conventions
+
+### Feature Branch
+Format: - `feature/{feature-name}`<br>
+Example: - `feature/user-authentication`<br>
+### Bugfix Branches
+Format: - `bugfix/{bug-description}`<br>
+Example: - `bugfix/fix-login-error`<br>
+### Release Branches
+Format: - `release/{version-number}`<br>
+Example: - `release/v1.2.0`<br>
+
+## Commit names 
+Every github commit should start with one of the following words:
+- `modification`: when a new code is added or removed. Designate the file and the purpose of the modification. 
+- `fix`: when a specific bug is fixed. 
+- `file change`: if files are added or removed. 
+- `refactor`: improved code without changing its behaviour
+- `ui`: Add or modify UI Elements
+## Features
+ ### Menu and Options Menu
+- [ ] The game will feature a main menu allowing players to start a new game, load a saved game, or exit.
+- [ ]	The options menu will enable players to adjust sound settings, graphic preferences, and gameplay settings.
+### Saving and Loading Options
+- [ ]	The game will allow players to save their menu preferences, such as sound settings, graphic settings, and key bindings.
+- [ ]	These settings will persist across sessions, ensuring that the player’s preferred configurations are automatically loaded when the game starts.
+- [ ]	The system will store these preferences in a file format, enabling easy retrieval and modification.
+### Player Movement
+- [ ]	The player can move freely within the game world using keyboard inputs (WASD or arrow keys).
+- [ ]	The Player can change speeds between crouch and sprint.
+- [ ]	Movement is smooth and responsive, with a simple collision detection system to prevent the player from passing through objects.
+### Camera Control
+- [ ]	The camera will follow the player, providing a dynamic perspective of the game world.
+- [ ]	The camera's position and rotation will adjust smoothly as the player moves, ensuring a clear and focused view of the action.
+- [ ]	The player can optionally adjust the camera angle and zoom in/out using the mouse.
+### Dialogue System
+- [ ]	Players can read through text-based responses and make choices that affect the conversation.
+- [ ]	Dialogue options will trigger different responses or actions based on player decisions.
+### Interaction
+- [ ]	The player can interact with NPCs, objects, and environments through simple prompts.
+- [ ]	Interactions will trigger actions such as opening doors, picking up items, or starting dialogues.
+- [ ]	The interaction system will be simple and context-sensitive, adapting to the object or NPC being interacted with.
+### Stats and Leveling
+- [ ]	The player will have stats such as health, experience points (XP), and level, which improve as they progress.
+- [ ]	The leveling system will improve stats as the player advances.
+### Saving and Loading Stats
+- [ ]	Player stats will be saved during the game save process.
+- [ ]	Stats will be stored in a file for easy management and retrieval when loading the game.
+- [ ]	Any changes to the player’s stats (such as leveling up) will be automatically saved.
+- [ ]	The player’s position, rotation, and other transform-related data will be saved when the game is saved.
+- [ ]	When the game is loaded, the player will return to their exact last location and state, preserving the continuity of gameplay.
+### Respawn
+- [ ]	When the player’s character dies, they will respawn at a predefined location, such as a checkpoint or starting area.
+- [ ]	Respawn will restore the player's health to a default value.
+- [ ]	The respawn system will include a short delay before the player is returned to the game world to avoid instant re-engagement after death.
+- [ ]	The game will provide a visual or audio cue to indicate the respawn event, ensuring the player is aware of their return to the game.
+- [ ]	Player stats, including experience points and level, will remain intact upon respawn, maintaining the player’s progression despite death.
+
+## Work Allocation
+
+| Feature                    | Priority | Team Member   | Order | Order Reason                                                                                      |
+|----------------------------|----------|---------------|-------|---------------------------------------------------------------------------------------------------|
+| Main Menu and Options Menu | Urgent   | Ben           |   3   | Develop UI for settings as keybinds will be needed for player                                     |
+| Saving and Loading Options | Low      | Ben           |   8   | Save and Load Keybinds and Mouse Invert option for the Player and Camera                          |
+| Player Movement            | Urgent   | Xavier/Mathew |   1   | Movement in the basic need for the player, so it can be influenced by the options and stats       |
+| Camera Control             | High     | Eli/Xavier    |   2   | Camera is needed to finish player, options will influence it                                      |
+| Dialogue System            | Low      | Eli           |   9   | To be able to interact with things like npcs and objects needed the player character ready made   |
+| Interface and Interaction  | High     | Xavier/Eli    |   5   | Needed the movement completed to make the interaction ready                                       |
+| Stats and leveling         | Low      | Matthew       |   6   | For saving stats and player lever                                                                 |
+| Saving and Loading Stats   | High     | Matthew       |   7   | Saving and loading will require stats and the players pos                                         |
+| Respawn                    | High     | Ben           |   4   | Needed to be attached with the movement to be able to reset pos                                   |
+
 Task 2;
  key tasks
  - Function name
    - purpose
-   - branch naming convention Naming 
-
- ## Team members and roles:
- ---
+   - branch naming convention Naming
+   - 
 # 1. Eli 
 - Dialogue System
   - Players can read text based responses and that make choices that effect the conversation. Dialogue responses will change the actions and responses of the conversation.
