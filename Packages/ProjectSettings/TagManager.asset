@@ -4,10 +4,7 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Heal
-  - SpawnPoint
-  - Damage
-  - GameManager
+  - DeathBubble
   layers:
   - Default
   - TransparentFX
@@ -15,7 +12,7 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
+  - 
   - 
   - 
   - 
