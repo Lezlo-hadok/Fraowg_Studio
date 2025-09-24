@@ -4,7 +4,7 @@ using System;// Required to make custom data types savable and visible in the In
 
 /// <summary>
 /// Serializable data container for saving player options such as
-/// resolution, audio, quality, and control settings.
+/// resolution, audio, quality, and control settings..
 /// </summary>
 [Serializable]
 public class OptionSaveData
